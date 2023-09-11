@@ -551,13 +551,15 @@ body{
 
         .upper-tab-left{
             height:100%;
-            width:55%;
+            width:60%;
             background: url("./assets/tablet/image-hero.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
         }
 
         .upper-tab-right{
             height:100%;
-            width:45%;
+            width:40%;
             background-color:white;
         }
 
@@ -593,6 +595,9 @@ body{
             
         }
         .tab-loc-button-location{
+            display: flex;
+            justify-content:center;
+            align-items: center;
             width: 204px;
             height: 72px;
             flex-shrink: 0;
