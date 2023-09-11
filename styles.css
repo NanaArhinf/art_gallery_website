@@ -572,6 +572,9 @@ body{
             flex-direction: column;
             margin-left:70%;
             z-index:2;
+            gap:2%;
+            height:60%;
+            justify-content:space-evenly
 
             
         }
