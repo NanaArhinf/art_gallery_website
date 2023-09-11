@@ -563,6 +563,8 @@ body{
 
         .upper-texts-and-button{
             background-color: pink;
+            display: flex;
+            flex-direction: column;
         }
 
         .tab-header{
@@ -587,6 +589,7 @@ body{
         }
 
         .tab-loc-button{
+            display: flex
             
         }
         .tab-loc-button-location{
@@ -594,9 +597,6 @@ body{
             height: 72px;
             flex-shrink: 0;
             background: var(--Almost-Black, #151515);
-        }
-
-        .tab-loc-select{
             color: var(--White, #FFF);
             font-family: Big Shoulders Display;
             font-size: 20px;
@@ -604,6 +604,10 @@ body{
             font-weight: 800;
             line-height: normal;
             letter-spacing: 3.636px;
+        }
+
+        .tab-loc-select{
+            
         }
 
 }
