@@ -532,6 +532,20 @@ body{
    
 }
 
+@media (min-width: 481px) and (max-width: 900px) {
+
+        .upper{
+            display:none;
+        }
+
+        .upper-tab-ver{
+            display: flex !important;
+            height:700px;
+            width:100%;
+            backkround-color:pink
+        }
+
+}
   
 
 .main{
@@ -1167,4 +1181,8 @@ footer{
 
 .upper-text-tab{
     display: none;
+}
+
+.upper-tab-ver{
+    display: none
 }
