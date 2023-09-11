@@ -546,7 +546,19 @@ body{
             display: flex !important;
             height:700px;
             width:100%;
-            backround-color:pink
+            background-color:pink
+        }
+
+        .upper-tab-left{
+            height:100%;
+            width:55%;
+            background: url("./assets/tablet/image-hero.jpg");
+        }
+
+        .upper-tab-right{
+            height:100%;
+            width:45%;
+            background-color:white;
         }
 
 }
