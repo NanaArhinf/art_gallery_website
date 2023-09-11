@@ -555,18 +555,24 @@ body{
             background: url("./assets/tablet/image-hero.jpg");
             background-size: cover;
             background-repeat: no-repeat;
+            display: flex;
+            align-items:center;
         }
 
         .upper-tab-right{
             height:100%;
             width:40%;
             background-color:white;
+            z-index:1;
         }
 
         .upper-texts-and-button{
             background-color: pink;
             display: flex;
             flex-direction: column;
+            margin-left:30%;
+            z-index:2;
+            
         }
 
         .tab-header{
