@@ -529,13 +529,17 @@ body{
     .footer-message{
         display: none !important;
     }
+
+    .upper-tab-ver{
+        display:none
+    }
    
 }
 
 @media (min-width: 481px) and (max-width: 900px) {
 
         .upper{
-            display:none;
+            display:none !important;
         }
 
         .upper-tab-ver{
