@@ -607,7 +607,9 @@ body{
         }
 
         .tab-loc-select{
-            
+            width: 56px;
+            height: 72px;
+            flex-shrink: 0;
         }
 
 }
