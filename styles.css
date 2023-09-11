@@ -360,7 +360,7 @@ body{
     .address-and-location-mobi{
         display: flex !important;  
         flex-direction: column;   
-        /*height: 493px;*/
+        height: 493px;
         width:100% !important;   
         background-color:#151515;
         margin-bottom: 0px;
