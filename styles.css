@@ -627,6 +627,285 @@ body{
             flex-shrink: 0;
         }
 
+        .mid-upper{
+            margin-top: 15% !important;
+            box-sizing: border-box;
+            width:100vw !important;
+            padding: 0 0 !important;
+            /*background-color: pink;*/
+            justify-content: space-around !important;
+         
+        }
+
+        .pic1{
+            width: 398px !important;
+            height: 400px !important;
+            flex-shrink: 0 !important;
+            background: url("./assets/tablet/image-grid-1.jpg") !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*background-color: #D5966C;*/
+    
+        }
+
+        .mid-upper-text{
+            /*background-color: purple !important;*/
+            margin:0 0 !important;
+            align-items: flex-start !important;
+            width:30% !important;
+        }
+
+        .big-text{
+            color: var(--Almost-Black, #151515);
+            font-family: Big Shoulders Display;
+            font-size: 50px !important  ;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 45px !important; /* 90% */
+            text-transform: uppercase;
+            width: 223px !important;
+            /*background-color: yellow*/;
+        }
+
+        a{
+            text-decoration: none;
+            color: var(--White, #FFF);
+
+        }
+
+        .small-text{
+            width: 227px !important;
+            color: var(--Dark-Grey, #444);
+            font-family: Outfit;
+            font-size: 18px !important;
+            font-style: normal;
+            font-weight: 300 !important;
+            line-height: 28px !important; /* 155.556% */
+            /*background-color: pink*/;
+        }
+
+        .mid-lower{
+            box-sizing: border-box;
+            display: flex;
+            width: 100vw !important;
+            /*background-color: aqua*/;
+            padding: auto auto !important;
+            justify-content: space-around !important;
+            
+        }
+
+        .pic2{
+            display: flex;
+            justify-self: flex-start;
+            width: 398px !important;
+            height: 720px !important;
+            flex-shrink: 0 !important;
+            background: url("./assets/tablet/image-grid-2.jpg") !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #ffffff !important;
+            margin: 0 0 !important;
+            margin-left: 2% !important;
+        }
+
+        .pic-set{
+            box-sizing: border-box;
+            margin: 0 0 !important;
+            /*background-color: pink*/;
+            margin: 0 0 !important;
+            margin-right: 2% !important;
+            justify-content: flex-start !important;
+            gap:1% !important;
+        }
+
+        .pic3{
+            width: 280px !important;
+            height: 313px !important;
+            flex-shrink: 0 !important;
+            background: url("./assets/tablet/image-grid-3.jpg");
+             background-repeat: no-repeat;
+            /*background-color: blue;*/
+            background-size: 100% 100%;
+        }
+
+        .pic4{
+            width: 280px !important;
+            height: 396px !important;
+            flex-shrink: 0 !important;
+            background: var(--Almost-Black, #151515) !important;
+        }
+
+        .be-inspired{
+            width: 223px !important;
+            color: var(--White, #FFF);
+            font-family: Big Shoulders Display;
+            font-size: 50px !important;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 45px !important; /* 90% */
+            text-transform: uppercase;
+        }
+
+        .welcome-message{
+            width: 240px !important;
+            color: var(--White, #FFF);
+            font-family: Outfit;
+            font-size: 18px !important;
+            font-style: normal !important;
+            font-weight: 300;
+            line-height: 28px !important; /* 155.556% */
+        }
+
+        footer{
+            box-sizing: border-box;
+            display: flex;
+            background-color:  #151515 !important;
+            padding: 0 0 !important;
+        
+        }
+
+        .footer-header{
+            display: flex;
+            background-color:  #151515;
+            margin: 0 0 !important;
+            justify-content: center !important;
+        }
+
+        .footer-message{
+            width: 281px !important;
+            display: flex;
+            flex: 281px !important;
+            color: var(--White, #FFF);
+            font-family: Outfit;
+            font-size: 16px !important;
+            font-style: normal;
+            font-weight: 300 !important;
+            line-height: 26px !important; /* 162.5% */
+            background-color:  #151515!important;
+        }
+
+        .footer-icons{
+               background-color:#151515;
+               width:30% !important; 
+               justify-content: center !important;
+        }
+
+        .footer-black{
+            display: none !important;
+        }
+
+        .map{
+            width: 100% !important;
+            height: 600px !important;
+            flex-shrink: 0 !important;
+            background: url("./assets/tablet/image-map.png");
+            background-position: -320px 30px!important;
+        }
+
+        .address-and-location{
+            background-color: #151515!important;
+        }
+
+        .location-text{
+            width: 223px !important;
+            color: var(--White, #FFF);
+            font-family: Big Shoulders Display;
+            font-size: 55px !important;
+            font-style: normal;
+            font-weight: 900 !important;
+            line-height: 50px !important; /* 90.909% */
+            text-transform: uppercase;
+            margin: 0 0 !important;
+            background-color: #151515 !important;
+        }
+
+        .address-details .street-name{
+            width: 350px;
+            color: var(--Gold, #D5966C);
+            font-family: Big Shoulders Display;
+            font-size: 32px !important;
+            font-style: normal;
+            font-weight: 900 !important;
+            line-height: 32px !important; /* 100% */
+            text-transform: uppercase;
+        }
+
+        .address-details .street-address{
+            width: 398px !important;
+            color: var(--White, #FFF);
+            font-family: Outfit;
+            font-size: 18px !important;
+            font-style: normal;
+            font-weight: 300 !important;
+            line-height: 28px !important; /* 155.556% */
+
+        }
+
+        .street-message{
+            width: 398px !important;
+            color: var(--White, #FFF);
+            font-family: Outfit;
+            font-size: 18px !important;
+            font-style: normal;
+            font-weight: 300 !important;
+            line-height: 28px !important; /* 155.556% */
+        }
+
+        .loc-foot{
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #D5966C !important;
+            padding-left: 4% !important;
+        }
+
+        .loc-foot .footer-inner-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:  #D5966C !important;
+            height: 70%;
+            width: 100% !important;
+        }
+        .loc-foot .footer-message-tab{
+            display: flex;
+            width: 281px !important;
+            color: var(--Almost-Black, #151515);
+            font-family: Outfit;
+            font-size: 16px !important;
+            font-style: normal;
+            font-weight: 300 !important;
+            line-height: 26px !important; /* 162.5% */
+            justify-content: flex-start;
+            /*background-color: blue !important;*/
+        }
+
+        .loc-foot .footer-header{
+            fill: var(--Almost-Black, #151515);
+            width: 159.572px;
+            height: 58px;
+            background-color:  #D5966C;
+            width: 159.572px;
+            height: 58px;
+            margin-left: 0px;
+            justify-content: flex-start !important;
+            
+        }
+
+        .loc-foot .footer-icons{
+            width: 100px;
+            height: 20px;
+            background-color:  #D5966C !important;
+        }
+
+        .loc-foot .footer-message{
+            display: none !important;
+        }
+       
+        
+        
+
 }
   
 
@@ -1267,4 +1546,8 @@ footer{
 
 .upper-tab-ver{
     display: none
+}
+
+.footer-message-tab{
+    display: none;
 }
