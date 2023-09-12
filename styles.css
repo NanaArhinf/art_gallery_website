@@ -65,9 +65,9 @@ body{
     .mobi-upper-heading{
         margin-top: 7%;
         display: flex;
-        justify-content: center;
+        /*justify-content: center;*/
         /*background-color: #D5966C;*/
-        width: 98%;
+        width: 343px !important;
         color: var(--Almost-Black, #151515) !important;
         font-family: Big Shoulders Display !important;
         font-size: 60px !important;
@@ -591,13 +591,14 @@ body{
         }
 
         .tab-paragraph{
-            width: 339px;
+            width: 339px !important;
             color: var(--Dark-Grey, #444);
             font-family: Outfit;
             font-size: 18px;
             font-style: normal;
             font-weight: 300;
             line-height: 28px; /* 155.556% */
+            /*background-color: #D5966C;*/
         }
 
         .tab-loc-button{
@@ -747,6 +748,7 @@ body{
         }
 
         .welcome-message{
+            margin-top: 4%;
             width: 223px !important;
             color: var(--White, #FFF);
             font-family: Outfit;
@@ -761,7 +763,7 @@ body{
             display: flex;
             background-color:  #151515 !important;
             padding: 0 0 !important;
-        
+            justify-content: space-around !important;
         }
 
         .footer-header{
@@ -772,16 +774,16 @@ body{
         }
 
         .footer-message{
+            
             width: 281px !important;
             display: flex;
-            flex: 281px !important;
             color: var(--White, #FFF);
             font-family: Outfit;
             font-size: 16px !important;
             font-style: normal;
             font-weight: 300 !important;
             line-height: 26px !important; /* 162.5% */
-            background-color:  #151515!important;
+            /*background-color:  yellow!important;*/
         }
 
         .footer-icons{
@@ -796,11 +798,11 @@ body{
 
         .map{
             width: 100% !important;
+            padding: 0 0 !important;
             height: 600px !important;
             flex-shrink: 0 !important;
             background: url("./assets/tablet/image-map.png");
             background-position: -320px 30px!important;
-            padding: 0 0 !important;
         }
 
         .address-and-location{
@@ -858,7 +860,7 @@ body{
             align-items: center;
             justify-content: center;
             background-color: #D5966C !important;
-            padding-left: 4% !important;
+            padding-left: 6% !important;
         }
 
         .loc-foot .footer-inner-container{
@@ -903,9 +905,11 @@ body{
         .loc-foot .footer-message{
             display: none !important;
         }
+
         .locationpage-location-button{
             margin-left: 7% !important;
         }
+       
         
         
 
@@ -1183,6 +1187,7 @@ body{
     line-height: 60px; /* 100% */
     text-transform: uppercase;
     width: 70%;
+   
 }
 
 .welcome-message{
@@ -1196,7 +1201,7 @@ body{
     line-height: 32px; /* 145.455% */
     /*background-color: pink;*/
     width: 70%;
-    width: 350px !important;
+    width: 350px;
 
     
 }
