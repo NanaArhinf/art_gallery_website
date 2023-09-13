@@ -1234,7 +1234,9 @@ footer{
 .footer-icons svg path:hover{
     fill: var(--Gold, #D5966C);
 }
-
+.footer-icons svg path{
+    cursor: pointer; 
+}
 .footer-message{
     display: flex;
     justify-content: center;
